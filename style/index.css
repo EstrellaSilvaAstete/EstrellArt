@@ -1,0 +1,91 @@
+:root {
+    --main-color: #0b060f;
+}
+
+body {
+    background-color: var(--main-color);
+    padding: 0px;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    padding-top: 6px;
+}
+
+
+
+.nav-buttons>a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nav-buttons>a>object {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-buttons>a>p {
+    color: azure;
+    margin: 0px;
+    margin-top: 8px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.nav-buttons {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.nav-find-more {
+    width: 30%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-find-more>object {
+    width: 40px;
+}
+
+.nav-find-more>input {
+    height: fit-content;
+    background-color: #222025;
+    border-style: solid;
+    padding: 5px;
+    border-color: #ffffff10;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.texto {
+    color: azure;
+    position: absolute;
+    bottom: 17%;
+    right: 15%;
+    width: 30%;
+    font-size: 0.5rem;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.main-content>img {
+    width: 50%;
+
+}
